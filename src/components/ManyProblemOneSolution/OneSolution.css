@@ -1,0 +1,12 @@
+
+.oneSolution{
+    display:flex;
+}
+.oneSolutionLeft{
+    display:flex;
+    flex-direction: column;
+}
+.oneSolutionRight{
+    display:flex;
+    flex-direction: column;
+}

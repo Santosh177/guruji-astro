@@ -1,0 +1,13 @@
+.container{
+    background-color: #F2D2BA;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userReview{
+    display: flex;
+}
+.semiContainer{
+background-color: #FFF5EE;
+}
