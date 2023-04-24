@@ -1,6 +1,38 @@
-.headerMiddle{
-    display:flex;
+.headerMiddle {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    text-align: center;
+  }
+  
+  .headerMiddle h1 {
+    margin: 0;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Sansation';
+font-style: normal;
+font-weight: 700;
+  }
+  
+  .headerMiddle h2 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color:white;
+  }
+  
+  .headerMiddle button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 2rem;
+    color: white;
+    background-color: #D97122;
+    font-weight: bold;
+    cursor: pointer;
+  }

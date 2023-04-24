@@ -3,4 +3,131 @@
     align-items: center;
     background-color: #BD5300;
     color:white;
+    position: absolute;
+    width: 1441px;
+    height: 553px;
+ 
 }
+.footerLeft {
+   margin-left: 5vw;
+    padding: 0.5em;
+    
+}
+
+.fooLe2{
+    margin-top: 2vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+}
+.foole3{
+    margin-top: 2vw;
+}
+.foole4{
+    margin-top: 3vw;
+}
+.foole5{
+    display:flex;
+    margin-top: 1vw;
+   
+}
+.foole5 img{
+    padding-right:1em;
+    padding-bottom: 1em;
+}
+.footerMiddle1{
+padding-left: 3em;
+}
+.foomid1{
+
+}
+.footerMiddle1 div{
+    margin-bottom: 7vw;
+   font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+
+
+}
+.footerMiddle2{
+ padding-left: 3em;
+}
+.footerMiddle2 div{
+margin-bottom: 6vw;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+}
+.footerRight{
+    width:10rem;
+    padding-left: 3em;
+margin-bottom: 20rem;
+}
+.fooRi1{
+    padding-bottom: 10px;
+}
+.fooRi2{
+    padding-bottom: 10px
+}
+.fooRi3 input{
+    height:3rem;
+    color:black;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+    /* Modify styles for screens smaller than 768px */
+    .footer {
+      flex-direction: column;
+      height: auto;
+    }
+    
+    .footerLeft {
+      margin-left: 0;
+    }
+    
+    .foole5 {
+      flex-direction: column;
+    }
+    
+    .footerMiddle1, .footerMiddle2, .footerRight {
+      padding-left: 0;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Modify styles for screens between 768px and 1024px */
+    .footer {
+      width: 100%;
+      height: auto;
+    }
+    
+    .footerMiddle1 div, .footerMiddle2 div {
+      margin-bottom: 3vw;
+    }
+    
+    .footerRight {
+      margin-bottom: 10rem;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1440px) {
+    /* Modify styles for screens between 1024px and 1440px */
+    .footer {
+      width: 100%;
+      height: auto;
+    }
+    
+    .footerMiddle1 div, .footerMiddle2 div {
+      margin-bottom: 5vw;
+    }
+    
+    .footerRight {
+      margin-bottom: 15rem;
+    }
+  }
+
+
+    
+    

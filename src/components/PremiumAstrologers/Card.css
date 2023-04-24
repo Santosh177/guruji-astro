@@ -1,3 +1,12 @@
 .astroContainer{
     background-color: #FFEFE3;
+   
+}
+.astroImage{
+
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:5rem;
+    gap: 25px;
 }

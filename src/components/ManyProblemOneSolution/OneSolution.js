@@ -12,28 +12,37 @@ import pto9 from '../Assects/One solution/pto9.svg'
 import pto10 from '../Assects/One solution/pto10.svg'
 import chakra from '../Assects/One solution/chakra.svg'
 import surya from '../Assects/One solution/surya.svg'
-
+import starIcon from '../Assects/StarIcon.svg'
 const OneSolution = () => {
   return (
+<div >
+<div className='oneSolutionTop'>
+<img src={starIcon} alt='loading'></img>
+<h1>Many Problem one Solution</h1>
+<img src={starIcon} alt='loading'></img>
+</div>
     <div className='oneSolution'>
+     
     <div className='oneSolutionLeft'>
-      <div><img src={pto1}/></div>
-      <div><img src={pto2}/></div>
-      <div><img src={pto3}/></div>
-      <div><img src={pto4}/></div>
-      <div><img src={pto5}/></div>
+      <div><img src={pto1} alt='loading'/></div>
+      <div><img src={pto2} alt='loading'/></div>
+      <div><img src={pto3} alt='loading'/></div>
+      <div><img src={pto4} alt='loading'/></div>
+      <div><img src={pto5} alt='loading'/></div>
     </div>
     <div className='oneSolutionMiddle'>
-        <img src ={chakra}/>
-        <img src ={surya}/>
+        <img className='chakraPto' src ={chakra} alt='loading'/>
+        <img className='suryaPto' src ={surya} alt='loading'/>
     </div>
     <div className='oneSolutionRight'>
-    <div><img src={pto6}/></div>
-      <div><img src={pto7}/></div>
-      <div><img src={pto8}/></div>
-      <div><img src={pto9}/></div>
-      <div><img src={pto10}/></div>
+    <div><img src={pto6} alt='loading'/></div>
+      <div><img src={pto7} alt='loading'/></div>
+      <div><img src={pto8} alt='loading'/></div>
+      <div><img src={pto9} alt='loading'/></div>
+      <div><img src={pto10} alt='loading'/></div>
+      </div>
     </div>
+    
     </div>
   )
 }

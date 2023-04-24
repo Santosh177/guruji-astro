@@ -1,6 +1,41 @@
 
 .oneSolution{
     display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.oneSolutionTop{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+padding-top:2rem;
+font-family: 'Sansation';
+font-style: normal;
+font-size: 32px;
+font-weight: 700;
+color:#D97122;
+}
+.chakraPto {
+  position: relative;
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.suryaPto{
+position: absolute;
+bottom:45rem;
+left:36rem;
 }
 .oneSolutionLeft{
     display:flex;
@@ -10,3 +45,5 @@
     display:flex;
     flex-direction: column;
 }
+
+

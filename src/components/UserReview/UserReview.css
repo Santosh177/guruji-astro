@@ -4,10 +4,42 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+height:33rem;
 }
 .userReview{
-    display: flex;
-}
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  padding-top:2rem;
+  padding-bottom: 1rem;
+  font-family: 'Sansation';
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 700;
+  color:#D97122;
+  }
+
 .semiContainer{
-background-color: #FFF5EE;
+  width:1000px;
+ display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  background-color: #FFF5EE;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  padding:1rem;
+
+ }
+ .star-rating {
+  font-size: 2em;
+}
+ 
+.star {
+  color:#D97122
+}
+.star5{
+  color:#FFA867
 }

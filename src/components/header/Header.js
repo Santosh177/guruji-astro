@@ -9,13 +9,13 @@ const Header = () => {
   return (
     <div className='headerContainer' style={{backgroundImage:`url(${backGround1})`}}>
       <Navbar/>
-      <div classname = 'headerMiddle'>
-      <div style={{color:'white'}}><h1>“Astrology for Clarity”</h1>
+      <div className = 'headerMiddle'>
+      <div ><h1>“Astrology for Clarity”</h1>
       <h2>Your Name is a Vedic Astrologer and has expertise in Vaastu and Mantra Theraphy</h2>
       </div>
-      <button style={{color:'white'}}>Consult Now</button>
+      <button >Consult Now</button>
       <div>
-        <img src={photo2}/>
+        <img src={photo2} alt='loading'style={{paddingTop:'7rem',paddingBottom:'2rem'}}/>
       </div>
       </div>
     </div>
@@ -24,3 +24,4 @@ const Header = () => {
 
 
 export default Header
+
